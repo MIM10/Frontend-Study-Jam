@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Frontend Web Development</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: inter;
+            color: #FFFFFF;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+            background-color: #141414;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 35px;
+            border-radius: 7px;
+            background-color: #1F1F1F;
+        }
+        img {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        p {
+            font-size: .9em;
+        }
+        .p1 {
+            margin: 10px 0 30px 0;
+            font-weight: 600;
+            color: #BAD25B;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        li {
+            text-align: center;
+            font-weight: 700;
+            width: 320px;
+            padding: 10px 20px;
+            border-radius: 7px;
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="profil.png" alt="">
+        <h2>Jessica Randall</h2>
+        <p class="p1">London, United Kingdom</p>
+        <p class="p2">"Front-end developer and avid reader."</p>
+        <ul>
+            <a href="#"><li>GitHub</li></a>
+            <a href="#"><li>Frontend Mentor</li></a>
+            <a href="#"><li>LinkedIn</li></a>
+            <a href="#"><li>Twitter</li></a>
+            <a href="#"><li>Instagram</li></a>
+        </ul>
+    </div>
+</body>
+</html>
